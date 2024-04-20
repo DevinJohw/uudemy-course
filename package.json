@@ -1,0 +1,22 @@
+{
+  "name": "uudemy-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "render": "npm install && prisma generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.12.1"
+  }
+}
